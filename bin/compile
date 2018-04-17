@@ -20,6 +20,7 @@ tar -zxvf $TESSERACT_OCR_TGZ -C $INSTALL_DIR
 echo 'Getting Tesseract-OCR training data'
 mkdir -p $INSTALL_DIR_TRAINING_DATA
 cp eng.traineddata $INSTALL_DIR_TRAINING_DATA
+cp eng_fast.traineddata $INSTALL_DIR_TRAINING_DATA
 
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
