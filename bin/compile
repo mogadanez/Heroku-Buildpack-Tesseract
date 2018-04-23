@@ -6,9 +6,13 @@ TESSERACT_OCR_DATA_VERSION=4.00
 TESSERACT_OCR_TGZ=tesseract-ocr-$TESSERACT_OCR_VERSION.tar.gz
 
 INSTALL_DIR=$BUILD_DIR/vendor/tesseract-ocr/
+echo 'install dir' $INSTALL_DIR
 INSTALL_DIR_TRAINING_DATA=$BUILD_DIR/vendor/tessdata
+echo 'install dir training data' $INSTALL_DIR_TRAINING_DATA
 TRAINING_DATA_DIR=${HOME}/vendor
+echo 'training data dir' $TRAINING_DATA_DIR
 TESSERACT_OCR_DIR=${HOME}/vendor/tesseract-ocr
+echo 'tesseract dir' $TESSERACT_OCR_DIR
 ENVSCRIPT=$BUILD_DIR/.profile.d/tesseract-ocr.sh
 
 TESSERACT_OCR_LANGUAGES=eng
