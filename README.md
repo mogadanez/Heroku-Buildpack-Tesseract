@@ -23,8 +23,7 @@ This fork solves the [issue](https://github.com/fouady/RoR-Tesseract-Heroku/issu
 ## License
 MIT License.
 
-Original work Copyright (c) 2013 Marco Azimonti  
-Modified work Copyright (c) 2015 Matteo Maggioni      
-Modified work Copyright (c) 2017 Brian Castor
-Modified work Copyright (c) 2018 Caue Guedes 
-
+Original work Copyright (c) 2013 Marco Azimonti.  
+Modified work Copyright (c) 2015 Matteo Maggioni.      
+Modified work Copyright (c) 2017 Brian Castor.    
+Modified work Copyright (c) 2018 Caue Guedes.             
